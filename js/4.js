@@ -13,3 +13,6 @@ function use() {
 
     document.getElementById('result').innerText = `Min: ${min} Max: ${max}`
 }
+
+checkbtn = document.getElementById('btn')
+checkbtn.addEventListener("click", use)

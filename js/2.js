@@ -11,3 +11,6 @@ function checkPrediction() {
     }
 
 }
+
+checkbtn = document.getElementById('btn')
+checkbtn.addEventListener("click", checkPrediction)

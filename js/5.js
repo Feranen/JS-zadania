@@ -10,3 +10,5 @@ function check(){
 
 }
 
+checkbtn = document.getElementById('btn')
+checkbtn.addEventListener("click", check)

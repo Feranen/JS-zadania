@@ -18,3 +18,6 @@ function calculateArea() {
         document.getElementById('result').innerHTML = 'Area of Triangle: ' + area.toFixed(2) + ' square units';
     }
 }
+
+checkbtn = document.getElementById('btn')
+checkbtn.addEventListener("click", calculateArea)

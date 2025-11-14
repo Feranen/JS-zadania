@@ -11,3 +11,6 @@ function replace() {
     }
 
 }
+
+checkbtn = document.getElementById('btn')
+checkbtn.addEventListener("click", replace)
